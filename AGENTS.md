@@ -2,10 +2,15 @@
 
 ## Overview
 
-This workspace contains `github-zh-cn/github-zh-cn.user.js`, a standalone userscript that
+Mini_Tools is a collection of small utilities. Keep each tool's code, dependency
+configuration, resources, and README in its own directory. Update the root README
+tool list when adding a tool; avoid shared dependencies unless they are needed.
+
+The current tool is `github-zh-cn/github-zh-cn.user.js`, a standalone userscript that
 localizes GitHub and Gist interface text into Simplified Chinese. It runs at
 `document-start` and uses optional userscript-manager APIs for its enable toggle.
-There is currently no package manifest, build pipeline, or automated test suite.
+This tool currently has no package manifest, build pipeline, or automated test suite.
+The userscript-specific guidance below applies to `github-zh-cn/`.
 
 ## Structure
 
