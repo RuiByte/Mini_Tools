@@ -7,11 +7,19 @@
 | 工具 | 目录 | 说明 |
 | --- | --- | --- |
 | GitHub 简体中文汉化脚本 | [github-zh-cn](./github-zh-cn/) | 将 GitHub 和 Gist 的界面文字翻译为简体中文 |
+| B 站杜比视界 P8.4 修正脚本 | [bilibili-dolby-vision](./bilibili-dolby-vision/) | 核实实际 P8.4 元数据并修正 Edge 视频声明，支持首次播放、推荐列表和分 P 切换 |
 
 ## 目录结构
 
 ```text
 Mini_Tools/
+├── bilibili-dolby-vision/
+│   ├── bilibili-dolby-vision.user.js # v6.0.0 用户脚本
+│   ├── launch-edge-dv.cmd            # Windows Edge 启动器
+│   ├── README.md                     # 支持范围、安装和使用说明
+│   ├── CHANGELOG.md                  # 版本说明
+│   ├── docs/                         # 故障排查
+│   └── tests/                        # 离线检查与初始化段样本
 ├── github-zh-cn/
 │   ├── README.md               # 安装和使用说明
 │   └── github-zh-cn.user.js     # 汉化脚本

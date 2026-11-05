@@ -1,0 +1,36 @@
+[
+  {
+    "file": "p5-init.bin",
+    "bytes": 23324,
+    "sha256": "e8e700c6ea336136b87e832ed025c34d43e0f86d58c37b4873b939e2ed6ead07",
+    "source_file": "Test Jellyfin 1080p DV P5.mp4",
+    "source_sha256": "c0dedeeef7d11c404955e126f9544318cdeb6eab62423528cfde9b567e8ca1a4",
+    "source_page": "https://sgp1.mirror.jellyfin.org/test-videos/",
+    "author": "Gnattu",
+    "license": "CC-BY-SA-4.0",
+    "extracted_boxes": [
+      "ftyp",
+      "moov"
+    ],
+    "contains_media_samples": false,
+    "dv_profile": 5,
+    "base_layer_compatibility_id": 0
+  },
+  {
+    "file": "p84-init.bin",
+    "bytes": 23368,
+    "sha256": "30e003a724cd52be8fafb17fe8349a355d91ada160e4c3a9d15bd551d355c5ca",
+    "source_file": "Test Jellyfin 1080p DV P8.4.mp4",
+    "source_sha256": "eaf21cc55e31694758c9d5cf2ba9f7b448f8447655907380259d4e42a2ea7276",
+    "source_page": "https://sgp1.mirror.jellyfin.org/test-videos/",
+    "author": "Gnattu",
+    "license": "CC-BY-SA-4.0",
+    "extracted_boxes": [
+      "ftyp",
+      "moov"
+    ],
+    "contains_media_samples": false,
+    "dv_profile": 8,
+    "base_layer_compatibility_id": 4
+  }
+]

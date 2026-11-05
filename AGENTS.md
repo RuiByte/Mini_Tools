@@ -6,10 +6,18 @@ Mini_Tools is a collection of small utilities. Keep each tool's code, dependency
 configuration, resources, and README in its own directory. Update the root README
 tool list when adding a tool; avoid shared dependencies unless they are needed.
 
-The current tool is `github-zh-cn/github-zh-cn.user.js`, a standalone userscript that
-localizes GitHub and Gist interface text into Simplified Chinese. It runs at
-`document-start` and uses optional userscript-manager APIs for its enable toggle.
-This tool currently has no package manifest, build pipeline, or automated test suite.
+Current tools:
+
+- `github-zh-cn/github-zh-cn.user.js` localizes GitHub and Gist interface text into
+  Simplified Chinese. It runs at `document-start` and uses optional userscript-manager
+  APIs for its enable toggle. This tool has no package manifest or automated tests.
+- `bilibili-dolby-vision/bilibili-dolby-vision.user.js` corrects verified Dolby Vision
+  P8.4 MIME declarations in compatible Edge playback, including in-page navigation.
+  Its README documents setup and limitations; its dependency-free Node checks run
+  with `node bilibili-dolby-vision/tests/test.cjs` from the repository root. Preserve
+  actual-metadata checks and the distinction between P8.4 support and unsupported
+  automatic P8.1 correction. Keep real browser validation distinct from mocked checks.
+
 The userscript-specific guidance below applies to `github-zh-cn/`.
 
 ## Structure
